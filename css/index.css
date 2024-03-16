@@ -1,0 +1,89 @@
+.header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.header__name-h3 {
+  font-weight: 650;
+  text-align: center;
+}
+.header__nav {
+  margin: 30px;
+}
+.header__nav-ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.header__nav-ul-li-p {
+  color: #737373;
+}
+.header__login {
+  display: flex;
+}
+.header__login-sol {
+  display: flex;
+}
+.header__login-sol-img {
+  cursor: pointer;
+}
+.header__login-sol-p {
+  margin: 35px;
+  color: #23A6F0;
+}
+.header__login-sag {
+  display: flex;
+}
+.header__login-sag-img {
+  cursor: pointer;
+}
+
+.button {
+  width: 20%;
+  height: 50px;
+  color: white;
+  border-radius: 8px;
+  border-bottom: none;
+  background-color: #23A6F0;
+}
+
+.sectionalma {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  background-color: #FAFAFA;
+}
+.sectionalma__ilk {
+  padding: 80px;
+  display: flex;
+}
+.sectionalma__ilk-text {
+  background-color: white;
+}
+.sectionalma__ilk-img {
+  cursor: pointer;
+}
+.sectionalma__orta {
+  padding: 80px;
+  display: flex;
+}
+.sectionalma__orta-text {
+  background-color: white;
+}
+.sectionalma__orta-img {
+  cursor: pointer;
+}
+.sectionalma__son {
+  padding: 80px;
+  display: flex;
+}
+.sectionalma__son-text {
+  background-color: white;
+}
+.sectionalma__son-img {
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */

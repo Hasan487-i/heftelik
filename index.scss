@@ -1,0 +1,95 @@
+//-------HEADER-------
+.header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    &__name{
+        &-h3{
+            font-weight: 650;
+            text-align: center;
+        }
+    }
+    &__nav{
+        margin: 30px;
+        &-ul{
+            list-style: none;
+            display:  flex;
+            gap: 10px;
+            &-li{
+                &-p{
+                    color: #737373;
+                }
+            }
+        }
+    }
+    &__login{
+        display: flex;
+        &-sol{
+            display: flex;
+            &-img{
+                cursor: pointer;
+            }
+            &-p{
+                margin: 35px;
+                color: #23A6F0;
+            }
+        }
+        &-sag{
+            display: flex;
+            &-img{
+                cursor: pointer;
+            }
+        }
+    }
+}
+//--------SECTION CORUSEL-------
+    //--- bootstrapdan alinib---
+    .button{
+        width: 20%;
+        height: 50px;
+        color: white;
+        border-radius: 8px;
+        border-bottom:none ;
+        background-color: #23A6F0;
+    }
+//------SECTION 2-CI ---------
+.sectionalma{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    background-color: #FAFAFA;
+    &__ilk{
+        padding: 80px;
+        display: flex;
+        &-text{
+            background-color: white;
+        }
+        &-img{
+            cursor: pointer;
+        }
+    }
+    &__orta{
+        padding: 80px;
+        display: flex;
+        &-text{
+            background-color: white;
+        }
+        &-img{
+            cursor: pointer;
+        }
+    }
+    &__son{
+        padding: 80px;
+        display: flex;
+        &-text{
+            background-color: white;
+        }
+        &-img{
+            cursor: pointer;
+        }
+    }
+}
